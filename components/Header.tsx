@@ -16,16 +16,28 @@ function Header() {
           />
         </Link>
         <div className="item-center hidden space-x-5 md:inline-flex">
-          <h3>About</h3>
-          <h3>Contact an Admin</h3>
-          <h3 className="rounded-full bg-green-600 px-4 text-white">
-            Make a Post
-          </h3>
+          <Link href="/about">
+            <h3 className="cursor-pointer">About</h3>
+          </Link>
+          <Link href="/contact">
+            <h3 className="cursor-pointer">Contact an Admin</h3>
+          </Link>
+          <Link href="/create-post">
+            <h3 className="cursor-pointer rounded-full bg-green-600 px-4 text-white">
+              Make a Post
+            </h3>
+          </Link>
         </div>
       </div>
       <div className="flex items-center space-x-5 text-green-600">
-        <h3>Sign In</h3>
-        <h3 className="rounded-full border border-green-600 px-4">Log Out</h3>
+        <Link href="sign-in">
+          <h3 className="cursor-pointer">Sign In</h3>
+        </Link>
+        <Link href="log-out">
+          <h3 className="cursor-pointer rounded-full border border-green-600 px-4">
+            Log Out
+          </h3>
+        </Link>
       </div>
     </header>
   )
