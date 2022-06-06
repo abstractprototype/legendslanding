@@ -11,7 +11,7 @@ function Header() {
           <img
             className="w-44 cursor-pointer object-contain"
             // src="https://links.papareact.com/yvf"
-            src="legendsblack.png"
+            src="../legendsblack.png"
             alt=""
           />
         </Link>

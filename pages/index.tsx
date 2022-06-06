@@ -51,7 +51,8 @@ export default function Home({ posts }: Props) {
                 <div>
                   <p className="text-lg font-bold">{post.title}</p>
                   <p className="text-xs">
-                    {post.description} by {post.author.name}
+                    {post.description} by{' '}
+                    <span className="text-blue-500">{post.author.name}</span>
                   </p>
                 </div>
                 <img
