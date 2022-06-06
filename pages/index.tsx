@@ -25,7 +25,7 @@ export default function Home({ posts }: Props) {
             <span className="underline decoration-black decoration-4">
               Legends
             </span>{' '}
-            is a place to write, read, connect
+            is a place to read, write, connect
           </h1>
           <h2>This is the Official Forum of CSULB Legends.</h2>
         </div>

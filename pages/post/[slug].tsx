@@ -59,7 +59,7 @@ function Post({ post }: Props) {
         </h2>
         <div className="flex items-center space-x-2">
           <img
-            className="h-10 w-10 rounded-full"
+            className="my-3 h-10 w-10 rounded-full"
             src={urlFor(post.author.image).url()!}
             alt=""
           />
