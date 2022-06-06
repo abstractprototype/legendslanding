@@ -22,7 +22,7 @@ function Header() {
           <Link href="/contact">
             <h3 className="cursor-pointer">Contact an Admin</h3>
           </Link>
-          <Link href="/create-post">
+          <Link href="/createpost">
             <h3 className="cursor-pointer rounded-full bg-green-600 px-4 text-white">
               Make a Post
             </h3>
