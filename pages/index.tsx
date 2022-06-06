@@ -13,7 +13,7 @@ export default function Home({ posts }: Props) {
   return (
     <div className="mx-auto max-w-7xl">
       <Head>
-        <title>Medium Blog</title>
+        <title>Legends Forum</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -23,19 +23,16 @@ export default function Home({ posts }: Props) {
         <div className="space-y-5 px-10">
           <h1 className="max-w-xl font-serif text-6xl">
             <span className="underline decoration-black decoration-4">
-              Medium
+              Legends
             </span>{' '}
             is a place to write, read, connect
           </h1>
-          <h2>
-            It's easy and free to post your thinking on any topic and connect
-            with millions of readers.
-          </h2>
+          <h2>This is the Official Forum of CSULB Legends.</h2>
         </div>
 
         <img
           className="hidden h-32 md:inline-flex lg:h-full"
-          src="https://accountabilitylab.org/wp-content/uploads/2020/03/Medium-logo.png"
+          src="blackshark.png"
           alt=""
         />
       </div>
